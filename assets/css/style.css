@@ -151,3 +151,34 @@ footer {
     padding: 20px;
     color: #69465a;
 }
+
+/* CURRICULUM */
+.curriculum {
+    margin-top: 35px;
+    padding: 25px;
+    background-color: #fdeaf3;
+    border-radius: 15px;
+}
+
+.curriculum h3 {
+    color: #b84f85;
+    margin-bottom: 10px;
+}
+
+.curriculum p {
+    margin-bottom: 20px;
+}
+
+.boton-cv {
+    display: inline-block;
+    background-color: #d989b2;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-cv:hover {
+    background-color: #b84f85;
+}
