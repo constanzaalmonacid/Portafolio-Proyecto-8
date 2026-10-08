@@ -1,0 +1,153 @@
+
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fc;
+    color: #4a3b46;
+    line-height: 1.6;
+}
+
+/* MENU */
+header {
+    background-color: #f7d6e6;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h2 {
+    color: #a64d79;
+}
+
+nav a {
+    text-decoration: none;
+    color: #69465a;
+    margin-left: 15px;
+}
+
+/* INICIO */
+.hero {
+    background-color: #fdeaf3;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+}
+
+.hero h1 {
+    font-size: 38px;
+    color: #b84f85;
+    margin: 15px 0;
+}
+
+.hero p {
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+/* BOTON */
+.boton {
+    background-color: #d989b2;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* SECCIONES */
+section:not(.hero) {
+    padding: 60px 8%;
+}
+
+section h2 {
+    color: #b84f85;
+    margin-bottom: 20px;
+}
+
+/* PROYECTOS */
+.proyecto {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 1px solid #f3d1e1;
+}
+
+/* CONTACTO */
+#contacto a {
+    color: #b84f85;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+/* CASO DE ESTUDIO */
+#caso-estudio {
+    background-color: #fdeaf3;
+}
+
+#caso-estudio .proyecto {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#caso-estudio h3 {
+    margin-top: 20px;
+    color: #b84f85;
+}
+
+#caso-estudio p {
+    margin-bottom: 15px;
+}
+
+/* CONTACTO */
+#contacto {
+    text-align: center;
+}
+
+.contacto-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.contacto-links a {
+    background-color: #d989b2;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contacto-links a:hover {
+    background-color: #b84f85;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #f7d6e6;
+    text-align: center;
+    padding: 20px;
+    color: #69465a;
+}
